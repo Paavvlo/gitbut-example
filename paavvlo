@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>
+		
+
+
+
+	</title>
+
+
+<style>
+*{
+	margin: auto;
+	padding: 0;
+	list-style: none;}
+
+header{
+	position: relative;
+	margin: 20px auto;
+	width: 1000px;
+	height: 120px;
+	background: #ccc;
+}
+
+#logo{
+	position: absolute;
+	top: 30px;
+	left: 30px;
+	right: 0;
+	width: 200px;
+	height: 60px;
+	background: #00ffaa;
+}
+
+
+.redes{
+	position:static ;
+	right: 20000px;
+	padding: 1px;
+	width: 42px;
+	height: 42px;
+	background: #cacc;
+	border-radius: 10000%;
+}
+
+nav{
+	position: relative;
+	margin: auto;
+	width: 1000px;
+	height: 48px;
+	background: #0000aa;
+
+
+}
+.botones{
+	float: left;
+	width: 196px;
+	height: 48px;
+	background: #ccffaa;
+	margin: 0 2px;
+}
+#top{
+	position: relative;
+	margin: 20px auto;
+	width: 1000px;
+	height: 191px;
+	background: #00ff00;
+}
+#top ul {
+	width: 1010px;
+	height: 1010px;
+	
+}
+#top ul li{
+	float: left;
+	width: 323px;
+	height: 191px;
+	
+	margin-right: 10px;
+}
+section{
+	position: relative;
+	margin: auto;
+	width: 1000px;
+	height: 453px;
+	background: #aaaaff;
+}
+aside#izq{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 290px;
+	height: 453px;
+	background: #333;
+}
+aside#der{
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 290px;
+	height: 453px;
+	background: #33aaff;
+}
+footer{
+	position: relative;
+	margin: 20px auto 20px;
+	width: 1000px;
+	height: 70px;
+	background: #000000;
+}
+
+
+
+</style>
+</head>
+<body>
+
+
+
+<header>
+<div id="icono1" class="redes"></div>
+<div id="icono5" class="redes"></div>
+<div id="icono6" class="redes"></div>
+
+
+
+
+</header>
+
+
+<nav>
+	
+	<ul>
+		<li class="botones"></li>
+		<li class="botones"></li>
+		<li class="botones"></li>
+		<li class="botones"></li>
+		<li class="botones"></li>
+		
+
+		
+
+	</ul>
+</nav>
+
+
+<div id="top">
+	<ul>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+</div>
+<section>
+	<aside id="izq"></aside>
+	<article></article>
+	<aside id="der"></aside>
+</section>
+<footer></footer>
+
+
+</body>
+</html>
